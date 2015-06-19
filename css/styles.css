@@ -292,6 +292,7 @@ a:hover {
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
     color: #333333;
+    font-size: 0.8rem;
 }
 .site-footer .site-footer-left {
     float: left;
@@ -313,13 +314,13 @@ a:hover {
 
 @media screen and (min-width: 64em) {
     .site-footer {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
     .site-footer {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .site-footer .site-footer-left {
         width: 100%;
@@ -334,9 +335,6 @@ a:hover {
 }
 
 @media screen and (max-width: 42em) {
-    .site-footer {
-        font-size: 0.9rem;
-    }
     .site-footer .site-footer-left {
         width: 100%;
         float: none;
