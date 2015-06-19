@@ -291,15 +291,17 @@ a:hover {
     padding-top: 2rem;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
-    color: #604b3c;
+    color: #333333;
 }
 .site-footer .site-footer-left {
     float: left;
     width: 65%;
+    text-align: left;
 }
 .site-footer .site-footer-right {
     float: left;
     width: 34%;
+    text-align: right;
 }
 .site-footer-owner {
     display: block;
@@ -322,10 +324,12 @@ a:hover {
     .site-footer .site-footer-left {
         width: 100%;
         float: none;
+        text-align: center;
     }
     .site-footer .site-footer-right {
         width: 100%;
         float: none;
+        text-align: center;
     }
 }
 
@@ -336,9 +340,11 @@ a:hover {
     .site-footer .site-footer-left {
         width: 100%;
         float: none;
+        text-align: center;
     }
     .site-footer .site-footer-right {
         width: 100%;
         float: none;
+        text-align: center;
     }
 }
